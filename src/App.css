@@ -1,0 +1,125 @@
+/* .App {
+  text-align: center;
+} */
+
+body{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* width*/
+::-webkit-scrollbar {
+  width: 5px;
+ 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 175, 219); 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #002147; 
+}
+
+/* Handle on validation */
+.error-box{
+  border: 1px solid red !important;
+}
+
+.success-box{
+  border: 1px solid green !important;
+}
+body {
+  background-color: #e1e6cf;
+}
+/* Header-navbar */
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4278f5;
+  width: 100%;
+  height: 60px;
+}
+
+.header-text {
+  text-align: center;
+  color: #f7f9fc;
+  margin: auto;
+}
+
+.header-icon {
+  margin: 10px;
+}
+
+.header-icon-acc:hover {
+  background-color: #f7f9fc;
+  border-radius: 11px;
+}
+
+/* Login page */
+
+.containerlogin{
+  
+ display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  margin-top: 50px;
+  /* box-shadow: 2px 2px 5px 5px #eee; */
+  border-radius: 10px;
+  background-color:transparent;
+  height: 500px;
+}
+
+/* .containerlogin {
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px 4px #ccc;
+} */
+h4{
+  margin-top: 10px;
+}
+
+#username{
+  height: 30px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#exampleInputPassword{
+  height: 30px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.text-center{
+  margin-top: 100px;
+  color: whitesmoke;
+  font-family:cursive;
+}
+.btn{
+  background-color:rgba(0, 255, 94, 0.818);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: cursive;
+  
+  
+}
+
+
+.logo-link{
+  
+}
